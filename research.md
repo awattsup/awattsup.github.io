@@ -2,6 +2,6 @@
 title: Research
 subtitle: Research
 layout: "page"
-icon: "fa-solid fa-galaxy"
+icon: "fa-atom"
 order: 6
 ---
