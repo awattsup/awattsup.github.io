@@ -1,11 +1,8 @@
 ---
-title: CV
-subtitle: CV
-layout: "page"
-icon: fa-book
+<a href="CV Adam Watts.pdf">
 order: 6
 ---
-<a href="CV Adam Watts.pdf">
+
 
 
 
