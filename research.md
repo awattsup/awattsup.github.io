@@ -2,6 +2,6 @@
 title: Research
 subtitle: Research
 layout: "page"
-icon: <i class="fa-solid fa-galaxy"></i>
+icon: "fa-solid fa-galaxy"
 order: 6
 ---
