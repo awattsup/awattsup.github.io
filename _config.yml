@@ -35,7 +35,7 @@ subtitle: Postdoctoral research associate
 description: Meow
 author: Dr. Adam B. Watts
 email: adam.watts@uwa.edu.au
-avatar: assets/images/avatar.jpg
+avatar: assets/images/AdamWattsNEW_slack.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -43,12 +43,12 @@ url: "" # the base hostname & protocol for your site
 
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
+twitter_url: https://twitter.com/awattsup_
 facebook_url:
 googleplus_url:
 instagram_url:
-linkedin_url:
-github_url:
+linkedin_url: https://www.linkedin.com/in/awattsup/
+github_url: https://github.com/awattsup
 stackoverflow_url:
 pinterest_url:
 slack_url:
