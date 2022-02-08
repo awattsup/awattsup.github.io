@@ -1,6 +1,6 @@
 ---
 title: Research
-subtitle: "Galaxies, in a way, are a lot like people. They are shaped by the environment they grow in and their past experiences."
+subtitle: "Galaxies, in a way, are a lot like people. They are shaped by the environment they grow in and their past interactions."
 layout: "page"
 icon: fa-atom
 order: 3
