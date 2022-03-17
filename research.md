@@ -8,7 +8,7 @@ order: 3
 
 
 
-<p> My research focus is understanding how the star-forming gas in galaxies is impacted by the evolution of galaxies themselves. These gas reservoirs participate in a complex cycle of consumption to form new stars, and replenishment from pristine gas inflows and heavy element-enriched feedback from dying stars. However, galaxies are rarely able to recover a reservoir of star-forming gas once it it is gone. Understanding how, and why, galaxies lose their star-forming gas is essential to understanding galaxy evolution. </p>
+<p> My research focus is understanding how the gas within galaxies is impacted by the evolution of galaxies themselves. These gas reservoirs participate in a complex cycle of consumption to form new stars, replenishment from pristine gas inflows, and heavy element-enriched feedback from dying stars. However, galaxies are rarely able to recover a reservoir of star-forming gas once it it is gone. Understanding how, and why, galaxies lose their star-forming gas is essential to understanding galaxy evolution. </p>
 
 <h2> 
 Current research
