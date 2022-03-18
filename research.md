@@ -28,12 +28,11 @@ Current research
  My substantial research items are listed below
  </h3>
  
+ 
 
 <h4> 
  PhD research 
 </h4>
-
-
 
  <p> 
  My PhD thesis was completed at the University of Western Australia under the supervision of Associate Professors Barbara Catinella and Luca Cortese, and Professor Chris Power. 
@@ -42,5 +41,4 @@ Current research
  They have been published in several <a href="https://ui.adsabs.harvard.edu/search/filter_bibstem_facet_fq_bibstem_facet=AND&filter_bibstem_facet_fq_bibstem_facet=bibstem_facet%3A%22MNRAS%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(bibstem_facet%3A%22MNRAS%22)&fq_database=(database%3Aastronomy)&p_=0&q=%20%20author%3A%22%5EWatts%2C%20A.B.%22%20year%3A2020-2021&sort=date%20desc%2C%20bibcode%20desc" target="_blank">research papers.</a>
 </p>
 <img src="/assets/images/spec_examples_asym.png" width="500" height="200",align="right",style=”margin: 5px 10px 5px 0px;”/> 
- 
- <body>
+
