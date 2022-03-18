@@ -10,16 +10,16 @@ order: 3
 
 <p> My research focus is understanding how the gas within galaxies is impacted by the evolution of galaxies themselves. These gas reservoirs participate in a complex cycle of consumption to form new stars, replenishment from pristine gas inflows, and heavy element-enriched feedback from dying stars. However, galaxies are rarely able to recover a reservoir of star-forming gas once it it is gone. Understanding how, and why, galaxies lose their star-forming gas is essential to understanding galaxy evolution. </p>
 
-<h2> 
+<h3> 
 Current research
-</h2>
+</h3>
 
 <p>
  I am currently working on several research projects, including
  <ul>
    <li>How gas removal impacts the atomic and molecular gas of galaxies in clusters</li>
-  <li>The properties and impact of stellar feedback-driven outflows in galaxies</li>
-  <li>Connecting disturbances between the different baryonic constitutes of galaxies</li>
+  <li>The properties stellar feedback-driven outflows in galaxies and their impact on their atomic and molecular gas</li>
+  <li>Connecting disturbances between the different gas phases of galaxies</li>
  </ul>
  
 </p>
@@ -28,9 +28,9 @@ Current research
  My substantial research items are listed below
  </h3>
  
-<h2> 
+<h4> 
  PhD research 
-</h2>
+</h4>
 
  <p> 
  My PhD thesis was completed at the University of Western Australia under the supervision of Associate Professors Barbara Catinella and Luca Cortese, and Professor Chris Power. 
