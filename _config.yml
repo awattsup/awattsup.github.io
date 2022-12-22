@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-Y8R3939L3G"
     anonymize_ip         : # true, false (default)
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Adam B. Watts"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Perth, Western Australia"
+  bio              : "I am a research associate at the International Centre for Radio Astronomy Research."
+  location         : "The University of Western Australia"
   email            :
   links:
     - label: "adam.watts@uwa.edu.au"
