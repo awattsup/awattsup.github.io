@@ -110,7 +110,7 @@ author:
   location         : "The University of Western Australia"
   email            :
   links:
-    - label: "adam.watts@uwa.edu.au"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: "mailto:adam.watts@uwa.edu.au"
     - label: "Website"
@@ -280,12 +280,12 @@ compress_html:
 # Defaults
 defaults:
   #_pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  #- scope:
+  #    path: ""
+  #    type: pages
+  #  values:
+  #    layout: single
+  #    author_profile: true
   # _posts
   - scope:
       path: ""
