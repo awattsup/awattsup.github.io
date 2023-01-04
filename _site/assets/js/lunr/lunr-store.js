@@ -11,7 +11,7 @@ var store = [{
     "title": "Home",
     "excerpt":" ","url": "http://localhost:4000/"
   },{
-    "title": " ",
+    "title": "Home",
     "excerpt":"                                                                                                                                                 I am a postdoctoral sesearch associate at the International Centre for Radio Astronomy Research, located at The University of Western Australia.     My research is focused on understanding how the evolution of galaxies impacts their gas content - the fuel for forming new stars.                                                                                                                                                                                        Recent news                                                                                                                                                                             Latest research                                                                                                                                                                             Under construction                                                                 ","url": "http://localhost:4000/"
   },{
     "title": null,
