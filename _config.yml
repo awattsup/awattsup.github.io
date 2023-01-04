@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "default" "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "default" "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-AU"
 title                    : "Dr Adam B. Watts"
 title_separator          : "|"
 subtitle                 : "Postdoctoral research associate" # site tagline that appears below site title in masthead
-name                     : "Adam B. Watts"
-description              : "Under construction."
+name                     : #"Dr. Adam B. Watts"
+description              : #"Under construction."
 url                      : "awattsup.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "awattsup/awattsup.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : #"/assets/images/misc/bio_photo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -59,11 +59,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -96,60 +96,45 @@ social:
 
 # Analytics
 analytics:
-  provider               : #"google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : #"G-Y8R3939L3G"
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-Y8R3939L3G"
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
   name             : "Adam B. Watts"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/misc/bio_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a research associate at the International Centre for Radio Astronomy Research."
-  location         : "The University of Western Australia"
+  location         : "University of Western Australia"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:adam.watts@uwa.edu.au"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:adam.watts@uwa.edu.au"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/awattsup/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: #"https://twitter.com/awattsup"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/awattsup"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: #"https://github.com/awattsup"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/awattsup"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: ""
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
+      url: "https://twitter.com/awattsup"
+    - label: ""
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/awattsup/"
+    - label: ""
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/awattsup"
 
 
 # Reading Files
@@ -276,24 +261,40 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
-  #_pages
-  #- scope:
-  #    path: ""
-  #    type: pages
-  #  values:
-  #    layout: single
-  #    author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: false
+      share: false
+
+

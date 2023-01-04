@@ -1,12 +1,38 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  # - title: "Quick-Start Guide"
+    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: "/"      #THIS IS THE URL IN THE /_pages/name.md file
+  - title: "News"
+    url: "/news/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "https://ui.adsabs.harvard.edu/public-libraries/HtDyc2iUQ4e9i09yoVTmOw"
+  - title: "CV"
+    url: "/assets/documents/Resume.pdf"
+  # - title: "Search"
+    # url: "/search/"
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+
+sidebar-contact:
+  - title: "<center>Contact</center>"
+    children:
+      - title: "<center> International Centre for Radio Astronomy Research <br>
+       University of Western Australia <br>
+       7 Fairway, Crawley 6009, WA </center>" 
+      - title: "<br>"
+      - title: "<center>E-mail <i class='fas fa-fw fa-envelope-square aria-hidden='true'></i> </center>"
+        url: "mailto:adam.watts@uwa.edu.au"
+      - title: "<center>LinkedIn <i class='fab fa-fw fa-linkedin' aria-hidden='true'></i> </center>"
+        url: "https://www.linkedin.com/in/awattsup/"
+      - title: "<center>Twitter <i class='fab fa-fw fa-twitter' aria-hidden='true'></i> </center>"
+        url: "https://twitter.com/awattsup"
+      - title: "<center>GitHub <i class='fab fa-fw fa-github aria-hidden='true'></i> </center>"
+        url: "https://github.com/awattsup"  

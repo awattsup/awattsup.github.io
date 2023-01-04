@@ -1,4 +1,33 @@
 ---
-layout: home
-author_profile: true
+layout: single
+classes: wide
+title: " "
+# author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: "/assets/images/misc/andromedawan.jpeg"
+intro:
+  - excerpt: "<center>I am a postdoctoral sesearch associate at the International Centre for Radio Astronomy Research, located at The University of Western Australia. <br> <br> My research is focused on understanding how the evolution of galaxies impacts their gas content - the fuel for forming new stars.</center>"
+    image_path: /assets/images/misc/bio_photo.jpg 
+
+landing_links:
+  - title: "<a href='/research/2023-01-03-phd_research/index.html'  <center>Recent news</center> </a>"
+    image_path: "/assets/images/teasers/news_teaser.png"
+  - title: "<a href='/research/2023-01-03-phd_research/index.html'<center>Latest research</center> </a>"
+    image_path: "/assets/images/teasers/research_teaser.png" 
+  - title: "<a href='404.html' target='_blank1'<center>Under construction</center> </a>"
+    image_path: ""
+
+
+sidebar:
+  - title: ""
+    nav: sidebar-contact
 ---
+
+
+
+
+{% include feature_row id="intro" type="left" %}
+
+{% include feature_row id="landing_links" %}
