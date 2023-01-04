@@ -1,4 +1,10 @@
 var store = [{
+        "title": "The first MAUVE observation!",
+        "excerpt":"The first MAUVE OB got observed! (not actually, just a placeholder!) MAUVE is a large program being undertaken with the the Multi Unit Spectroscopic Explorer (MUSE) instrument on the Very Large Telescope in Chile. The survey aims to answer key questions about the physical processes responsible for shutting down the...","categories": [],
+        "tags": [],
+        "url": "/news-archive/2023-01-03-mauve_obs/",
+        "teaser": "/assets/images/mauve_logo_noname.png"
+      },{
         "title": "PhD research",
         "excerpt":"My PhD thesis was completed at the University of Western Australia under the supervision of Associate Professor Barbara Catinella and Professors Luca Cortese and Chris Power. I used some of the most sensitive observations of cold gas in nearby galaxies from the xGASS survey, cosmological numerical simulations, and optical integral...","categories": [],
         "tags": [],
@@ -6,13 +12,13 @@ var store = [{
         "teaser": "/assets/images/misc/spec_examples_asym.png"
       },{
     "title": "Page Not Found",
-    "excerpt":"Sorry, but the page you were trying to view does not exist.  ","url": "http://localhost:4000/404.html"
+    "excerpt":"  ","url": "http://localhost:4000/404.html"
   },{
     "title": "Home",
     "excerpt":" ","url": "http://localhost:4000/"
   },{
     "title": "Home",
-    "excerpt":"                                                                                                                                                 I am a postdoctoral sesearch associate at the International Centre for Radio Astronomy Research, located at The University of Western Australia.     My research is focused on understanding how the evolution of galaxies impacts their gas content - the fuel for forming new stars.                                                                                                                                                                                        Recent news                                                                                                                                                                             Latest research                                                                                                                                                                             Under construction                                                                 ","url": "http://localhost:4000/"
+    "excerpt":"                                                                                                                                                 I am a postdoctoral sesearch associate at the International Centre for Radio Astronomy Research, located at The University of Western Australia.     My research is focused on understanding how the evolution of galaxies impacts their gas content - the fuel for forming new stars.                                                                                                                                                                                        Recent news                                                                                                                                                                             Latest research                                                                 ","url": "http://localhost:4000/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
@@ -23,8 +29,11 @@ var store = [{
     "title": null,
     "excerpt":"var store = [ {%- for c in site.collections -%} {%- if forloop.last -%} {%- assign l = true -%} {%- endif -%} {%- assign docs = c.docs | where_exp:'doc','doc.search != false' -%} {%- for doc in docs -%} {%- if doc.header.teaser -%} {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture...","url": "http://localhost:4000/assets/js/lunr/lunr-store.js"
   },{
+    "title": "News archive",
+    "excerpt":"","url": "http://localhost:4000/news-archive/"
+  },{
     "title": "News",
-    "excerpt":"{% include feature_row id=\"MAUVE1\" type='left' %}  {% include feature_row id=\"MAUVE1\" type='right' %}        ","url": "http://localhost:4000/news/"
+    "excerpt":"{% include feature_row id=\"intro\" type='center' %}  {% include feature_row id=\"MAUVE1\" type='left' %}          ","url": "http://localhost:4000/news/"
   },{
     "title": "Research",
     "excerpt":"### My research focus is understanding how the gas within galaxies is impacted by the evolution of galaxies themselves. {: style=\"text-align: left;\"} These gas reservoirs participate in a complex cycle of consumption to form new stars, replenishment from pristine gas inflows, and heavy element-enriched feedback from dying stars. However, galaxies...","url": "http://localhost:4000/research/"
