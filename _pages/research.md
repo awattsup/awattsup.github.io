@@ -5,15 +5,6 @@ collection: "research"
 permalink: "/research/"
 entries_layout: grid
 classes: wide
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8R3939L3G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y8R3939L3G');
-</script>
 
 header:
   overlay_color: "#000"
