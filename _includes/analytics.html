@@ -1,6 +1,15 @@
 {% if jekyll.environment == 'production' %}
 
-{% case site.analytics.provider %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y8R3939L3G');
+  </script>
+  
+<!-- {% case site.analytics.provider %}
 {% when "google" %}
   {% include /analytics-providers/google.html %}
 {% when "google-universal" %}
@@ -9,6 +18,6 @@
   {% include /analytics-providers/google-gtag.html %}
 {% when "custom" %}
   {% include /analytics-providers/custom.html %}
-{% endcase %}
+{% endcase %} -->
 
 {% endif %}
