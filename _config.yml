@@ -29,6 +29,7 @@ logo                     : #"/assets/images/misc/bio_photo.jpg" # path of logo i
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
+environment              : "prod"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
