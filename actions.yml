@@ -1,0 +1,5 @@
+steps:
+  - uses: actions/checkout@v2
+  - uses: awattsup/action-build-deploy-ghpages@v3.1.0
+    with:
+      jekyll_env: 'production'
