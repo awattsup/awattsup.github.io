@@ -12,6 +12,8 @@ main:
     url: "https://ui.adsabs.harvard.edu/public-libraries/HtDyc2iUQ4e9i09yoVTmOw"
   - title: "CV"
     url: "/assets/documents/Resume.pdf"
+  - title: "Astronomy life"
+    url: "/astronomy-life/"
   # - title: "Search"
     # url: "/search/"
   # - title: "Sample Collections"
