@@ -5,6 +5,8 @@ collection: "news-archive"
 permalink: "/news-archive/"
 entries_layout: grid
 classes: wide
+sort_by: date
+sort_order: reverse
 
 header:
   overlay_color: "#000"

@@ -28,7 +28,7 @@ sidebar-contact:
        University of Western Australia <br>
        7 Fairway, Crawley 6009, WA </center>" 
       - title: "<br>"
-      - title: "<center>E-mail <i class='fas fa-fw fa-envelope-square aria-hidden='true'></i> </center>"
+      - title: "<center>E-mail <i class='fas fa-fw fa-envelope-square' aria-hidden='true'></i> </center>"
         url: "mailto:adam.watts@uwa.edu.au"
       - title: "<center>LinkedIn <i class='fab fa-fw fa-linkedin' aria-hidden='true'></i> </center>"
         url: "https://www.linkedin.com/in/awattsup/"
@@ -36,3 +36,19 @@ sidebar-contact:
         url: "https://twitter.com/awattsup"
       - title: "<center>GitHub <i class='fab fa-fw fa-github aria-hidden='true'></i> </center>"
         url: "https://github.com/awattsup"  
+      - title: "<center>ResearchGate <i class='fab fa-brands fa-researchgate'></i> </center>"
+        url: "https://www.researchgate.net/profile/Adam-Watts-6?ev=hdr_xprf"
+      - title: "<center> Google Scholar <i class='fab fa-graduation-cap' aria-hidden='true'></i> </center>"
+        url:  "https://scholar.google.com/citations?user=l5mWzbEAAAAJ&hl=en&oi=ao"
+
+ 
+sidebar-collaborations:
+  - title: "<center>I work as part of these great collaborations</center>"
+    children:
+      - title: <img src="/assets/images/mauve_logo_noname.png", width=10>
+        url: "https://mauve.icrar.org/index.html"
+      - title: "<br>"
+      - title: <img src="/assets/images/geckos_logo_small.png", width=10> 
+      - title: "<br>"
+      - title: <img src="/assets/images/vertico_logo-text-blackblue.png", width=10>
+        url: "https://www.verticosurvey.com/home"

@@ -13,8 +13,8 @@ intro:
   - excerpt: "Some of the latest research news. For the full list of posts see the [news archive](/news-archive/index.html)."
 
 MAUVE1:
-  - excerpt: "The first MAUVE OB got observed! (not actually, just a placeholder!) <br>
-  [MAUVE](https://mauve.icrar.org/index.html) is a large program being undertaken with the the Multi Unit Spectroscopic Explorer (MUSE) instrument on the Very Large Telescope in Chile. <br> The survey aims to answer key questions about the physical processes responsible for shutting down the formation of new stars in galaxies that fall into galaxy clusters. <br> You can read more [here](/news-archive/2023-01-03-mauve_obs/index.html)."
+  - excerpt: "The first MAUVE OB got observed! <br>
+  MAUVE is a large program being undertaken with the the Multi Unit Spectroscopic Explorer (MUSE) instrument on the Very Large Telescope in Chile. You can read more [here](/news-archive/2023-01-03-mauve_obs/index.html)."
     image_path: /assets/images/mauve_logo_noname.png
 ---
 
