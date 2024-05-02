@@ -1,8 +1,8 @@
 ---
 layout: collection
-title: "News archive"
-collection: "news-archive"
-permalink: "/news-archive/"
+title: "Research archive"
+collection: "research-archive"
+permalink: "/research-archive/"
 entries_layout: grid
 classes: wide
 sort_by: date

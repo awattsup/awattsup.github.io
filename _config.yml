@@ -267,9 +267,6 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  news-archive:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -298,14 +295,8 @@ defaults:
       type: research
     values:
       layout: single
+      class: wide
       author_profile: false
       share: false
-  # _news-archive
-  - scope:
-      path: ""
-      type: news-archive
-    values:
-      layout: single
-      author_profile: false
-      share: false
+
 

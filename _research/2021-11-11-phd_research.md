@@ -1,11 +1,13 @@
 ---
+layout: single
 title: "PhD research" 
-date: 03-01-2023
+date: 11-11-2021
 classes: wide
 author_profile: false
 read_time: false
 header:
   teaser: /assets/images/research/phd/spec_examples_asym.png
+excerpt: A journey through asymmetry in neutral atomic hydrogen from deep HI data, numerical simulations, and combination with IFS data from the SAMI survey.
 ---
 
 My PhD thesis was completed at the University of Western Australia under the supervision of Associate Professor Barbara Catinella and Professors Luca Cortese and Chris Power.
