@@ -69,7 +69,7 @@ sidebar:
 <div id="photos"> 
 <h3> Photos </h3>
 <p> 
-    Some recent astronomy and conference photos. See the full collection <a href="/media-outreach/photos/index.html">here</a>.
+    Some recent astronomy and conference photos. See the full collection <a href="/media-outreach/photos.html">here</a>.
     </p>
   <figure>
    <img src="/assets/images/astronomylife/Galaxy_Quenching_talk1.jpeg" style="width:49%;height:auto">
